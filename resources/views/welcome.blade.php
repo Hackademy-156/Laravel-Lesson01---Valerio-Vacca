@@ -20,13 +20,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Welcome</a>
+                <a class="nav-link active" aria-current="page" href="{{route('homepage')}}">Welcome</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/chi-siamo">Chi Siamo</a>
+                <a class="nav-link" href="{{route('chiSiamo')}}">Chi Siamo</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/dove-andiamo">Dove Andiamo?</a>
+                <a class="nav-link" href="{{route('doveAndiamo')}}">Dove Andiamo?</a>
               </li>
             </ul>
           </div>
