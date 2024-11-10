@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    {{-- collego il mio css --}}
+
+    <!-- MY CSS -->
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
@@ -41,7 +42,7 @@
             </div>
       </header>
     
-      {{-- sezione delle card --}}
+      <!-- SEZIONE CARD -->
 
       <section class="container my-5">
         <div class="row justify-content-center">
@@ -53,7 +54,7 @@
                 <img src="https://picsum.photos/{{300 + $student['id']}}" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">{{$student['name']}}  {{$student['surname']}}</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Questa è la nostra descrizione.</p>
 
                   <p>L'id dello Studente è {{$student['id']}}</p>
                   
@@ -70,7 +71,7 @@
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
-    {{-- collego il mio javascript --}}
+    <!-- MY JS -->
     <script src="/js/index.js"></script>    
 
 </body>
