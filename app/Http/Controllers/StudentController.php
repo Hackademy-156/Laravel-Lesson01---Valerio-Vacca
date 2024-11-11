@@ -35,6 +35,8 @@ class StudentController extends Controller
             }
 
         }
+        // se l'utente malefico prova a ricercare uno studente che ha un id superiore al numero 4, viene rimandato alla pagina 404
+        abort(404);
     
     }
 }

@@ -5,6 +5,7 @@
     {{-- sezione delle card --}}
 
     <section class="container my-5">
+        <h2>I miei studenti:</h2>
         <div class="row justify-content-center">
 
             @foreach ($students as $student)
