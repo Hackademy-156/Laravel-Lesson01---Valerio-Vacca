@@ -9,10 +9,10 @@ class StudentController extends Controller
 
     public $students = [
     
-        ['id' => 1, 'name' => 'Arianna', 'surname' => "D'Alessandro", 'age' => 18, 'subject' => 'JavaScript'],
-        ['id' => 2, 'name' => 'Gabriele', 'surname' => 'Contino', 'age' => 19, 'subject' => 'PHP'],
-        ['id' => 3, 'name' => 'Leonardo', 'surname' => 'Dal Maso', 'age' => 20 , 'subject' => 'CODING AI'],
-        ['id' => 4, 'name' => 'Claudio', 'surname' => 'Lipari', 'age' => 21, 'subject' => 'Cybersec'],
+        ['id' => 1, 'name' => 'Antonio', 'surname' => "Nespoli", 'age' => 29, 'subject' => 'Html'],
+        ['id' => 2, 'name' => 'Michele', 'surname' => 'Fanelli', 'age' => 28, 'subject' => 'Css'],
+        ['id' => 3, 'name' => 'Claudio', 'surname' => 'Lipari', 'age' => 30 , 'subject' => 'Bootstrap'],
+        ['id' => 4, 'name' => 'Mario', 'surname' => 'Rossi', 'age' => 99, 'subject' => 'Pensione'],
     
     ];
 
