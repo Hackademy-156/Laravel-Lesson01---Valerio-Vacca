@@ -1,13 +1,6 @@
 <x-layout title="Chi Siamo">
 
-  
-    <header class="container-fluid bg-chiSiamo">
-        <div class="row vh-100">
-            <div class="col-12 d-flex align-items-center justify-content-center">
-                <h1 class="display-1 fw-bold text-decoration-underline">Chi Siamo</h1>
-            </div>
-        </div>
-    </header>
+  <x-header titleHeader="Benvenuti in Chi Siamo"/>
 
     {{-- sezione delle card --}}
 
